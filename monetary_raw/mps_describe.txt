@@ -1,0 +1,36 @@
+jk_*: Jarociński–Karadi Fed MP / CBI shock
+ident_s_*: Identkurto 4-factor Fed shock, standardized
+ident_bp_*: Identkurto 4-factor Fed shock, bp-normalized
+mps_*: USMPD-derived statement / press conference / monetary event shock
+mps_minutes_*: FOMC minutes shock
+usmpd_me_*: USMPD raw high-frequency monetary-event surprises
+rr_*: Romer & Romer narrative monetary shock
+uk_*: UKMPESD Target / Path / QE shock
+
+
+1. shocks_fed_jk_t.csv
+- Jarociński–Karadi 계열 FOMC event-time shock임. 각 FOMC announcement별 row 1개.
+- 기간은 1990-02-08 11:30부터 2026-03-18 14:00까지, 총 330개 event.
+
+2. shocks_fed_jk_m.csv
+- 위 event-level JK shock을 월별로 aggregate한 자료
+- 기간은 1990년 2월부터 2026년 3월까지, 총 434개월. 
+- FOMC event가 없는 달은 shock이 0으로 들어감.
+
+3. USMPD.xlsx
+- U.S. Monetary Policy Event-Study Database. sheet가 5개 있음.
+- sheet	관측치	핵심 내용
+README	39 rows	출처/레퍼런스 설명
+Statements	276 rows	FOMC statement window surprises
+Press Conferences	92 rows	press conference window surprises
+Monetary Events	276 rows	statement + PC event-level 통합
+Minutes	203 rows	FOMC minutes release surprises
+** 핵심 변수는 MP1, MP2, FF1~FF6, ED1~ED8, OIS1Y, OIS2Y, UST3M, UST6M, UST2Y, UST5Y, UST10Y, SP500, SP500FUT류
+
+4. Romer and Romer Data and Programs.zip
+- 고전적인 Romer & Romer monetary policy shock 자료/프로그램임. Romer&Romer_Data.xlsx 안에 monthly/quarterly data 있음
+- monthly/quarterly data
+
+5. U1s.csv
+- Marek Jarociński의 2024 JME 논문 “Estimating the Fed’s Unconventional Monetary Policy Shocks” 업데이트 자료
+이 자료는 1991년 1월부터 2024년 1월까지 Fed conventional + unconventional policy shocks를 업데이트한 것이고, U1s.csv는 one-standard-deviation shock, U1bp.csv는 관련 변수를 1bp 움직이도록 scaling한 shock임. 원자료는 1988–2024년 FOMC announcement 주변 30분 narrow-window surprises인 fomc_surprises_jk.csv
