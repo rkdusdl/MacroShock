@@ -1,0 +1,11 @@
+source_id,file,description,source_start,source_end,source_rows
+jk,shocks_fed_jk_m.csv,Fed JK MP/CBI monthly shock,1990-02-01,2026-03-01,434
+ident_bp,U1bp.csv,"Identkurto Fed four shocks, bp-normalized",1991-01-08,2024-09-18,297
+ident_s,U1s.csv,"Identkurto Fed four shocks, one-s.d. standardized",1991-01-08,2024-09-18,297
+mps,monetary-policy-surprises.zip/mps.csv,USMPD-derived statement/press-conference/monetary-event surprises,1994-02-04,2026-04-29,276
+mps_minutes,monetary-policy-surprises.zip/mps_minutes.csv,USMPD-derived FOMC minutes surprise,2005-01-04,2026-04-08,171
+bs_mps_monthly_update2023,monetary-policy-surprises-data.xlsx/Monthly (update 2023),"Bauer-Swanson-style monthly monetary policy surprises and macro controls, update 2023",1988-02-01,2023-12-01,431
+bs_mps_fomc_update2023,monetary-policy-surprises-data.xlsx/FOMC (update 2023),"Bauer-Swanson-style FOMC event-level monetary policy surprises, update 2023; monthly sums",1988-02-04,2023-12-13,361
+usmpd_me,USMPD.xlsx/Monetary Events,USMPD raw key asset-price surprises around monetary events,1994-02-04,2026-04-29,276
+rr_updated,auto-detected updated RR,Updated Romer-Romer monetary shocks; baseline column usually rr_resid_full,1969-01-01,2007-01-01,39
+ukmpesd,measuring-monetary-policy-in-the-uk-the-ukmpesd.xlsx/factors,"UK MP event-study factor shocks: Target, Path, QE",1997-06-06,2026-02-05,418
