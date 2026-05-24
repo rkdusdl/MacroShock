@@ -1,2 +1,2 @@
 # MacroShock
-Monetary, Fiscal, Oil, Technology shock
+Monetary, Fiscal, Oil, Technology shock measure
